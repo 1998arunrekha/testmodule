@@ -5,10 +5,5 @@ variable "resourcegroupname" {
 
 variable "location" {
     type = string
-  
 }
 
-variable "storageaccountname" {
-    type = string
-  
-}

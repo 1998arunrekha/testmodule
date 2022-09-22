@@ -19,10 +19,8 @@ module "ResourceGroup" {
     
 }
 
-module "ResourceGroup" {
-    source = "./ResourceGroup"
-    resourcegroup = ResourceGroup.resource_group.name
-    location = "west us"
+module "StorageAccount" {
+    source = "./StorageAcoount"
     storageaccountname = "testmystr88"
     
 }
