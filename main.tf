@@ -21,7 +21,7 @@ module "ResourceGroup" {
 
 module "StorageAccount" {
     source = "./StorageAcoount"
-    resourcegroupname = "myrg001"
+    resourcegroup = "myrg001"
     location = "west us"
     storageaccountname = "testmystr88"
     
